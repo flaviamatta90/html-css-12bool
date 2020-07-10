@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container, [class*="col-"]{
+  border: 1px solid black;
+}
+
+[class*="col-"]{
+  height: 300px;
+  position: relative;
+  background-color: pink;
+}
+
+[class*="col-"]>span{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.nasted{
+  background-color: #f07f80;
+  border: 1px solid #fff;
+  height: 180px;
+}
