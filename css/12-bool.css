@@ -61,14 +61,14 @@
   float: left;
 }
 
-.nasted .col-2{
+.nasted-col-2{
   width: calc(100% / 6);
 }
 
-.nasted .col-8{
+.nasted-col-8{
   width: calc((100% / 12) * 8);
 }
 
-.nasted .col-6{
+.nasted-col-6{
   width: 50%;
 }
