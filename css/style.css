@@ -9,9 +9,10 @@
 }
 
 [class*="col-"]{
-  height: 300px;
+  height: 100%;
   position: relative;
   background-color: pink;
+  padding: 3px;
 }
 
 [class*="col-"]>span{
@@ -22,9 +23,11 @@
   text-align: center;
 }
 
+.row{
+  height: 300px
+}
+
 .last{
   background-color: #f07f80;
   border: 1px solid #fff;
-  height: 290px;
-  margin: 5px 0;
 }
